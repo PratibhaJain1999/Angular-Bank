@@ -1,0 +1,19 @@
+
+ span{
+    font-size: 50px;
+margin-left: 35%;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:#C12869;
+}
+
+
+img{
+    height: 120px;
+    width: 220px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.axis{
+    margin-left: 20px;
+
+}

@@ -1,0 +1,25 @@
+.card-img-top{
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.container{
+
+    margin-top: 20px;
+}
+p{
+    color: midnightblue;
+    font-size: 17px;
+}
+.btn{
+    text-align: center;
+    margin-left:20%;
+    width: 50%;
+    border-radius: 20PX;
+}
+.card{
+    margin-left: 40%;
+    margin-top: 20px;
+    width: 400px;
+}

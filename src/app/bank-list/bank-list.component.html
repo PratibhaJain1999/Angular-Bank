@@ -1,0 +1,21 @@
+<div class="container">
+        <div class="mx-auto">
+            <h2><b><i>Axis Bank Customer List</i></b></h2>
+            <hr>
+            <table border="5" cellpadding="5" class="table table-hover table-stripped">
+                <thead>
+                    <tr style="margin-right: 20px;">
+                        <th>Id</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let list of customerList"> 
+                    <tr>
+                        <td><b>{{list.id}}</b></td>
+                        <td (click)="customerLists(list.id)"><b>{{list.Name}}</b></td>
+                    </tr>
+                       
+                </tbody>
+            </table>
+        </div>
+    </div>
